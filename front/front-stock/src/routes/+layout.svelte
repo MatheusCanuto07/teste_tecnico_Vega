@@ -1,6 +1,11 @@
 <script lang="ts">
+	import Nav from '$lib/components/Nav.svelte';
 	import '../app.css';
 	let { children } = $props();
 </script>
 
-{@render children()}
+<Nav />
+
+<div class="mx-20">
+  {@render children()}
+</div>
