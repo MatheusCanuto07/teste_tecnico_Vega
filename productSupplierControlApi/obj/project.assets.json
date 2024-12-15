@@ -2741,11 +2741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/matheuscanuto07/projects/testec#Oficial/productSupplierControlApi/productSupplierControl.csproj",
+      "projectUniqueName": "/home/matheuscanuto07/projects/testeVega/productSupplierControlApi/productSupplierControl.csproj",
       "projectName": "productSupplierControl",
-      "projectPath": "/home/matheuscanuto07/projects/testec#Oficial/productSupplierControlApi/productSupplierControl.csproj",
+      "projectPath": "/home/matheuscanuto07/projects/testeVega/productSupplierControlApi/productSupplierControl.csproj",
       "packagesPath": "/home/matheuscanuto07/.nuget/packages/",
-      "outputPath": "/home/matheuscanuto07/projects/testec#Oficial/productSupplierControlApi/obj/",
+      "outputPath": "/home/matheuscanuto07/projects/testeVega/productSupplierControlApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/matheuscanuto07/.nuget/NuGet/NuGet.Config"

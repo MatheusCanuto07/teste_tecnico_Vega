@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T1yC8PUrIKR128dvStBMPvcXacqWm2JIFqyMj7JY6B68lJjAKwiNgmRDjHnfAbJhCj40exc/L4B1HjvZOAyc5Q==",
+  "dgSpecHash": "P96+vb9qF3n1w5nTArRPSlJjYYgJldlMq+J9vPLJyF7hF5TXarmc5GqHzgB+VJK0PGEsS6ie7XUI55sbGmo4Fw==",
   "success": true,
-  "projectFilePath": "/home/matheuscanuto07/projects/testec#Oficial/productSupplierControlApi/productSupplierControl.csproj",
+  "projectFilePath": "/home/matheuscanuto07/projects/testeVega/productSupplierControlApi/productSupplierControl.csproj",
   "expectedPackageFiles": [
     "/home/matheuscanuto07/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/matheuscanuto07/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
