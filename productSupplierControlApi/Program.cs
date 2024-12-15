@@ -13,6 +13,18 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IMaterialRepository, MaterialRepository>();
 
+builder.Services.AddCors(options =>
+{
+   options.AddPolicy(name: "MinhaPolitica",
+           policy =>
+           {
+               policy.WithOrigins("http://localhost:8080", "http://localhost:5502", "https://localhost:7090", "http://127.0.0.1:5500" , "http://localhost:5501", "http://127.0.0.1:5501")
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+           ;
+           }
+       );
+});
 
 var app = builder.Build();
 
@@ -22,6 +34,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("MinhaPolitica");
 
 app.UseHttpsRedirection();
 

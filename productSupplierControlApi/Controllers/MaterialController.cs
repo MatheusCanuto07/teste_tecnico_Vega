@@ -23,7 +23,7 @@ public class MaterialController : ControllerBase
     _materialRepository.add(material);
     return Ok();
   }
-  
+  [HttpGet]
   public IActionResult GetAll(){
     var materials = _materialRepository.Get();
     return Ok(materials);
