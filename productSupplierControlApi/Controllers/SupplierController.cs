@@ -16,7 +16,14 @@ public class SupplierController : ControllerBase
 
   [HttpPost]
   public IActionResult Add(SupplierViewModel s){
-    var supplier = new Supplier(s.Id, s.address, s.QRCode);
+    var supplier = new Supplier(
+      s.id,          // id
+      s.address,     // address
+      s.QRCode,      // QRCode
+      s.cnpj,        // cnpj
+      s.cep,         // cep
+      s.name         // name
+    );
 
     _supplierRepository.add(supplier);
     return Ok();
