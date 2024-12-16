@@ -45,3 +45,18 @@ dotnet run
 ```
 
 A API estará acessível em `https://localhost:5266`.
+
+### Svelte (Front-end)
+Developing
+
+Once you've cloned the project and installed dependencies with npm install (or pnpm install, yarn or bun), start a development server:
+
+npm run dev
+
+Building
+
+To create a production version of your app:
+
+npm run build
+
+A aplicacao estará acessível em `https://localhost:5173`.
